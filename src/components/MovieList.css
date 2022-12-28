@@ -1,0 +1,51 @@
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 9% 2% 9%;
+    padding-top: 5%;
+    flex-direction: row;
+
+}
+.b1 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+}
+.marto:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale (1.1);
+    
+
+}
+.marto{
+   
+  width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
+    transition: transform 0.2s;
+}
+.button{
+    color: #1f3d47;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.jng{
+    position: relative;
+    transition: transform 0.2s;
+    margin: 0.5cm;
+}
+.jng:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
